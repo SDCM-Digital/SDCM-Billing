@@ -1,0 +1,80 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  animation-delay: 1s;
+  background: #444444;
+  font-family: Raleway;
+  font-weight: 300;
+}
+nav ul {
+  text-align: left;
+  list-style-type: none;
+  display: inline-flex;
+  margin: 0;
+  padding: 2px;
+  overflow: hidden;}
+nav li {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  float: left;
+}
+nav a:hover {
+
+}
+nav li a {
+  text-decoration: none;
+  display: block;
+  color: #FFFFFF;
+  font-size: 23px;
+}
+#branding {
+  background: rgba(0, 0, 0, 0.2);
+}
+#branding li {
+  font-weight: 700;
+  color: #FFFFFF;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-size: 23px;
+}
+#navLinks {
+  
+}
+.loginLink {
+  float: right;
+  text-align: right;
+  font-weight: 700;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.3) 50%);
+  background-size: 210% 100%;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+}
+.loginLink a {
+  color: #5e91ff;
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+}
+.loginLink:hover {
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+  background-position: bottom right;
+}
+.loginLink:hover a {
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+  background-position: bottom right;
+  color: #FFFFFF;
+}
