@@ -195,5 +195,6 @@ nav li a {
   width: 300px;
   text-align: right;
   color: #FFFFFF;
+  text-decoration: none;
   padding-right: 5px;
 }
