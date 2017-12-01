@@ -194,8 +194,9 @@ nav li a {
   right: 10px;
   width: 300px;
   text-align: right;
+  padding-right: 5px;
+}
+.footer #email a {
   color: #FFFFFF;
   text-decoration: none;
-  padding-right: 5px;
-  display: inline-block;
 }

@@ -59,7 +59,7 @@
     </div>
     <div class="footer">
       <p id="copyright">Copyright &copy; 2017 SDCMDigital</p>
-      <a id="email" href="mailto:admin@sdcmdigital.com">Email Us</a>
+      <p id="email"><a href="mailto:admin@sdcmdigital.com">Email Us</a></p>
     </div>
   </body>
 </html>
