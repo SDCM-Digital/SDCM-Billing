@@ -5,6 +5,13 @@ body, html {
   padding: 0;
   font-family: Raleway, sans-serif;
 }
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin: 0 0 100px;
+}
 
 /* Navigation */
 
@@ -178,6 +185,11 @@ nav li a {
 .footer {
   bottom: 5px;
   background: rgba(20, 20, 20, 0.9);
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
   margin-top: 50px;
 }
 .footer p {
@@ -186,7 +198,7 @@ nav li a {
 .footer #copyright {
   bottom: 5px;
   color: #FFFFFF;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 .footer #email {
   bottom: 5px;
@@ -194,9 +206,15 @@ nav li a {
   right: 10px;
   width: 300px;
   text-align: right;
-  padding-right: 5px;
+  color: #FFFFFF;
+  padding-right: 10px;
 }
 .footer #email a {
-  color: #FFFFFF;
   text-decoration: none;
+}
+.footer #email:hover a {
+  -webkit-animation-name: pulse;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-iteration-count: 100;
+
 }
