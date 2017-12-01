@@ -1,2 +1,2 @@
-# SDCM-Billing
-Billing Panel for SDCM Digital
+# SDCM-Clients
+Client Portal for SDCM Digital
