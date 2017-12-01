@@ -42,14 +42,14 @@
       <?php
         if ($r = $conn->query("SELECT COUNT(*) FROM news ORDER BY `id` DESC")) {
           if ($r->fetchColumn() > 0) {
-            foreach($conn->query("SELECT * FROM news ORDER BY `id` DESC") as $res) {
+            foreach($conn->query("SELECT * FROM news ORDER BY `id` DESC") as $row) {
       ?>
       <div class="infoItem">
         <div>
-          <h1><? $row['subject']; ?></h1>
-          <h2><? date("d/m/Y", $row['subject']); ?></h2>
+          <h1><?php echo $row['subject']; ?></h1>
+          <h2><?php echo date("m/d/Y", strtotime($row['date'])); ?></h2>
         </div>
-        <p><? $row['content']; ?></p>
+        <p><?php echo $row['content']; ?></p>
       </div>
       <?php
             }

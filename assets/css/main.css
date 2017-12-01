@@ -189,12 +189,13 @@ nav li a {
   padding-left: 5px;
 }
 .footer #email {
+  bottom: 5px;
   float: right;
   right: 10px;
-  bottom: 5px;
   width: 300px;
   text-align: right;
   color: #FFFFFF;
   text-decoration: none;
   padding-right: 5px;
+  display: inline-block;
 }
